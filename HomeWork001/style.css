@@ -1,0 +1,60 @@
+.center {
+    padding-right: calc(50% - 600px);
+    padding-left: calc(50% - 600px);
+}
+
+h1 {
+    text-align: center;
+}
+
+.schedule {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    width: 33%;
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin: 20px 0 0;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.object_title {
+    text-align: center;
+}
+
+.info {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.btn {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    font-size: 20px;
+}
+
+.btn_item {
+    padding: 10px 30px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn_item:hover {
+    background-color: darkgray;
+
+}
+.red-text {
+    color: red;
+}
